@@ -13,8 +13,8 @@ public class Hello {
         }
 
 
-    public void say() {
-        System.out.println("message");
+    public String say() {
+        return message;
     }
 
 }
